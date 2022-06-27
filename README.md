@@ -19,7 +19,11 @@ echo "sudo docker run --runtime nvidia -it --rm --network host \
     nvcr.io/nvidia/dli/dli-nano-deepstream:v2.0.0-DS6.0.1 " > ds_docker_run.sh
  ```
  Make it executable
- ```chmod +x ds_docker_run.sh```
+ ```
+ chmod +x ds_docker_run.sh
+ ```
  3) Launching the container
  The first time the container tries to launch it will need to download it from NVIDIA's NGC
- ```./ds_docker_run.sh```
+ ```
+ ./ds_docker_run.sh
+ ```
